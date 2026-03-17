@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5E6; /* Cream */
+    color: #2C3E50; /* Navy Blue */
+}
+
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFC0CB; /* Soft Pink */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2C3E50;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #2C3E50;
+}
+
+button {
+    background-color: #2C3E50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC0CB; /* Soft Pink */
+    color: #2C3E50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: #FFC0CB;
+    color: #2C3E50;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #2C3E50;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFC0CB;
+}
+
+img {
+    max-width: 100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5E6; /* Cream */
+    color: #2C3E50; /* Navy Blue */
+}
+
+h1 {
+    text-align: center;
+    color: #2C3E50;
+}
+
+.table-container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #2C3E50;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFC0CB; /* Soft Pink */
+}
+
+td {
+    background-color: #FFF5E6; /* Cream */
+}
+
+img {
+    max-width: 50px;
+    height: auto;
+}
+
+a {
+    color: #2C3E50;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #FFC0CB;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.form-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFC0CB;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #2C3E50;
+}
+
+button {
+    background-color: #2C3E50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC0CB;
+    color: #2C3E50;
+}

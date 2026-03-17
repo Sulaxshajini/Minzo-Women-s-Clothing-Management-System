@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.jpg" alt="Logo" class="logo" style="width: 50px; height: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i><sup>1</sup>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Secondary Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Welcome Guest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="login-container container">
+        <div class="image-section">
+            <img src="images/login.jpg" alt="Login Image" style="max-width: 100%; height: auto;">
+            <h1>MINZO</h1>
+            <p>Login to Women's Fashion World!</p>
+        </div>
+        <div class="form-section">
+            <h2>Login</h2>
+            <form action="process-login.php" method="POST">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

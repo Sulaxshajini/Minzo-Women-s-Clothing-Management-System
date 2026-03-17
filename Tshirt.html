@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minzo Website</title>
+  <!-- Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Font Awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <img src="./images/logo.jpg" alt="Logo" class="logo">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="product.html">Products <span class="sr-only">(current)</span> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><i class="fa-regular fa-user"></i></a>
+            </li>
+          </ul>
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+  </header>
+<br>
+<br>
+
+
+
+
+
+  <!-- Content Section for Dress Items -->
+  <main>
+    <div class="container">
+      <h1 class="text-center my-4">T-Shirts Collections</h1>
+      <div class="row">
+        <!-- Individual Dress Cards with links to details page -->
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS01.png" class="card-img-top" alt="Dress 1">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">CRISS CROSS Womens Crew Neck T-Shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 1,950</p>
+              <a href="TSdetails.html?dressId=Dress1" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat for other dresses, changing the dressId in the URL -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS02.png" class="card-img-top" alt="Dress 2">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">CRISS CROSS Womens Crew Neck T-Shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 1,990</p>
+              <a href="TSdetails.html?dressId=Dress2" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Continue for other dresses -->
+         
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS03.png" class="card-img-top" alt="Dress 3">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">HUF & DEE Womens Regular Fit T-Shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 2,250</p>
+              <a href="TSdetails.html?dressId=Dress3" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS04.png" class="card-img-top" alt="Dress 4">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">HUF & DEE Womens Oversized T-Shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 2,550</p>
+              <a href="TSdetails.html?dressId=Dress4" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS05.png" class="card-img-top" alt="Dress 5">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">CRISS CROSS Womens Crew Neck T-Shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 2,550</p>
+              <a href="TSdetails.html?dressId=Dress5" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS06.png" class="card-img-top" alt="Dress 6">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">CRISS CROSS Womens Crew Neck T-Shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 1,900</p>
+              <a href="TSdetails.html?dressId=Dress6" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS07.png" class="card-img-top" alt="Dress 7">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">HUF & DEE Womens Crew Neck T-shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 1,490</p>
+              <a href="TSdetails.html?dressId=Dress7" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS08.png" class="card-img-top" alt="Dress 8">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">HUF & DEE Womens Crew Neck T-shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 1,950</p>
+              <a href="TSdetails.html?dressId=Dress8" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS09.png" class="card-img-top" alt="Dress 9">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">HUF & DEE Womens Crew Neck T-shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 1,290</p>
+              <a href="TSdetails.html?dressId=Dress9" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/TS 10.png" class="card-img-top" alt="Dress 10">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">HUF & DEE Womens Crew Neck T-shirt</h5>
+              <p style="font-size: 11px; color: #555;">LKR 1,290</p>
+              <a href="TSdetails.html?dressId=Dress 10" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        
+
+    
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Newsletter Section -->
+<section class="newsletter">
+    <div class="container text-center">
+      <h2>Join Our Fashion Newsletter</h2>
+      <form action="#">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="product.html">Shop</a>
+      <a href="aboutus.html">About Us</a>
+    </div>
+    <p>Follow Us:</p>
+    <div class="social-links">
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    </div>
+    <p>© 2024 Minzo. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS links -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
